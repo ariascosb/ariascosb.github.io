@@ -2,12 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ariascosb.com/archives/</loc>
-  </url><url>
     <loc>https://ariascosb.com/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/tags/bash/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
   </url><url>
     <loc>https://ariascosb.com/categories/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/tags/linux/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/categories/linux/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/2021/05/mi-c%C3%B3digo-bash-para-actualizar-ubuntu/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/posts/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
   </url><url>
     <loc>https://ariascosb.com/tags/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/tags/ubuntu/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/tags/wsl/</loc>
+    <lastmod>2021-05-22T10:43:26-05:00</lastmod>
+  </url><url>
+    <loc>https://ariascosb.com/archives/</loc>
   </url>
 </urlset>

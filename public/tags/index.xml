@@ -9,6 +9,43 @@
       <link>https://ariascosb.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://ariascosb.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language>
+    <lastBuildDate>Sat, 22 May 2021 10:43:26 -0500</lastBuildDate><atom:link href="https://ariascosb.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash</title>
+      <link>https://ariascosb.com/tags/bash/</link>
+      <pubDate>Sat, 22 May 2021 10:43:26 -0500</pubDate>
+      
+      <guid>https://ariascosb.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://ariascosb.com/tags/linux/</link>
+      <pubDate>Sat, 22 May 2021 10:43:26 -0500</pubDate>
+      
+      <guid>https://ariascosb.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://ariascosb.com/tags/ubuntu/</link>
+      <pubDate>Sat, 22 May 2021 10:43:26 -0500</pubDate>
+      
+      <guid>https://ariascosb.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>https://ariascosb.com/tags/wsl/</link>
+      <pubDate>Sat, 22 May 2021 10:43:26 -0500</pubDate>
+      
+      <guid>https://ariascosb.com/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
