@@ -1,5 +1,6 @@
 baseURL: https://ariascosb.com/ #cambiar a ariascosb.com, cuando compre un dominio
 languageCode: es
+defaultContentLanguage: es
 title: ariascosb #Titulo de la pestaña del navegador web
 
 theme: PaperMod_My
