@@ -125,15 +125,15 @@ menu:
         - identifier: Categorias
           name: Categorias
           url: /categories/
-          weight: 10
+          weight: 30
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 20
-        - identifier: archives
+          weight: 10
+        - identifier: archivo
           name: Archivo
-          url: /archives/
-          weight: 30
+          url: /archivo/
+          weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

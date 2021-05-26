@@ -3,7 +3,7 @@ title: "Mi código bash para actualizar Ubuntu"
 date: 2021-05-22T10:43:26-05:00
 draft: false
 tags: ["WSL", "Linux","Ubuntu","Bash"]
-categories: ["Linux"]
+categories: ["Programación"]
 ---
 
 WSL nos permite tener una distribución linux en windows 10. La nueva version WSL2 mejora el rendimiento notablemente con la version anterior y la he adoptado como entorno de desarrollo en mi dia a dia. Una labor rutinaria y frecuente que se realiza es mantener actualizado el sistema, por eso te quiero mostrar el código bash que utilizo para realizar esta tarea.
