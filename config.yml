@@ -26,7 +26,7 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ariascosb
-    description: "Mi blog personal"
+    description: "Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas."
     keywords: [Blog, Portfolio, Andres Riascos B., Andres Riascos]
     author: Andres Riascos B.
     # author: ["Me", "You"] # multiple authors
@@ -39,23 +39,23 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: false #mostrar tabla de contenido
     tocopen: false
 
-    assets:
+    #assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+    #    favicon: "<link / abs url>"
+    #    favicon16x16: "<link / abs url>"
+    #    favicon32x32: "<link / abs url>"
+    #    apple_touch_icon: "<link / abs url>"
+    #    safari_pinned_tab: "<link / abs url>"
 
     label:
         text: "Inicio"
@@ -99,10 +99,10 @@ params:
     #    yandex:
     #        SiteVerificationTag: "XYZabc"
 
-    cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+    #cover:
+    #    hidden: true # hide everywhere but not in structured data
+    #    hiddenInList: true # hide on list pages and home
+    #    hiddenInSingle: true # hide on single page
 
     editPost:
         URL: "https://github.com/ariascosb/ariascosb_blog/blob/main/content/"
@@ -111,14 +111,14 @@ params:
 
     # for search
     # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+    #fuseOpts:
+    #    isCaseSensitive: false
+    #    shouldSort: true
+    #    location: 0
+    #    distance: 1000
+    #    threshold: 0.4
+    #    minMatchCharLength: 0
+    #    keys: ["title", "permalink", "summary", "content"]
 #Pestañas del blog
 menu:
     main:
@@ -134,6 +134,7 @@ menu:
           name: Archivo
           url: /archives/
           weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
