@@ -24,6 +24,13 @@ minify:
     disableXML: true
     minifyOutput: true
 
+#Habilitar la busqueda dentro del blog
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ariascosb
@@ -49,14 +56,14 @@ params:
     showtoc: false #mostrar tabla de contenido
     tocopen: false
 
-    #assets:
+    assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-    #    favicon: "<link / abs url>"
-    #    favicon16x16: "<link / abs url>"
-    #    favicon32x32: "<link / abs url>"
-    #    apple_touch_icon: "<link / abs url>"
-    #    safari_pinned_tab: "<link / abs url>"
+        favicon: "/static/favicon.ico"
+        favicon16x16:  "/static/favicon-16x16.png"
+        favicon32x32:  "/static/favicon-32x32.png"
+        apple_touch_icon:  "/static/apple-touch-icon.png"
+        #safari_pinned_tab:  "/static/img/safari-pinned-tab.svg"
 
     label:
         text: "Inicio"
@@ -100,6 +107,7 @@ params:
     #    yandex:
     #        SiteVerificationTag: "XYZabc"
 
+    #Coer es para tener una portada de imagen en cada post.
     #cover:
     #    hidden: true # hide everywhere but not in structured data
     #    hiddenInList: true # hide on list pages and home
@@ -112,14 +120,15 @@ params:
 
     # for search
     # https://fusejs.io/api/options.html
-    #fuseOpts:
-    #    isCaseSensitive: false
-    #    shouldSort: true
-    #    location: 0
-    #    distance: 1000
-    #    threshold: 0.4
-    #    minMatchCharLength: 0
-    #    keys: ["title", "permalink", "summary", "content"]
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
 #Pestañas del blog
 menu:
     main:
@@ -135,6 +144,12 @@ menu:
           name: Archivo
           url: /archivo/
           weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 40
+
+
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
