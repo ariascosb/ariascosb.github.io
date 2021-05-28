@@ -59,7 +59,7 @@ alias ubuntu="sudo /home/ariascosb/ubuntu.sh"
 
 En mi caso el nombre personalizado que les estoy dando es ubuntu, pero tu lo puedes cambiar al editar la palabra que esta después de alias y antes del signo igual (=). 
 
-6. Esta todo listo, ahora para ejecutar el script solo bastara con escribir en la terminal el alias (en mi caso: ubuntu) y automáticamente se actualizara nuestra distribución en WSL.
+6. Esta todo listo, ahora para ejecutar el script solo bastara con escribir en la terminal el alias (en mi caso: ubuntu), digitar nuestra contraseña y automáticamente se actualizara nuestra distribución en WSL.
 
 ~~~bash
 ubuntu
