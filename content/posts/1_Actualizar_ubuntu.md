@@ -1,5 +1,5 @@
 ---
-title: "Mi código bash para actualizar Ubuntu"
+title: "Mi script bash para actualizar Ubuntu"
 date: 2021-05-22T10:43:26-05:00
 draft: false
 tags: ["WSL", "Linux","Ubuntu","Bash"]
