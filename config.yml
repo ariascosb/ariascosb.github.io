@@ -34,7 +34,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ariascosb
-    description: "Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas."
+    description: Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas.
     keywords: [Blog, Portfolio, Andres Riascos B., Andres Riascos]
     author: Andres Riascos B.
     # author: ["Me", "You"] # multiple authors
@@ -89,7 +89,9 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Bienvenid@ \U0001F44B"
-        Content: Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas.
+        #Content: Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas.
+        Content: >
+            Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas.
 
     socialIcons:
         - name: twitter
