@@ -4,7 +4,7 @@ defaultContentLanguage: es
 title: ariascosb #Titulo de la pestaña del navegador web
 
 theme: PaperMod_My
-description: "Un blog sobre Programación, Ingeniería y Matemáticas aplicadas"
+#description: "Un blog sobre Programación, Ingeniería y Matemáticas aplicadas"
 
 #De aqui hacia abajo copia del tema
 
@@ -35,7 +35,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ariascosb
-    description: "Un blog sobre Programación, Ingeniería, Matemáticas aplicadas y un poco mas."
+    description: "Un blog sobre Programación, Ingeniería y Matemáticas aplicadas"
     keywords: [Python, R, Rstudio, Linux, ariascosb, Andres Riascos B., Andres Riascos]
     author: Andres Riascos B.
     # author: ["Me", "You"] # multiple authors
