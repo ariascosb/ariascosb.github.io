@@ -90,7 +90,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Bienvenid@ \U0001F44B"
-        Content: Un blog sobre Programación, Ingeniería y Matemáticas aplicadas
+        Content: Un blog sobre ingeniería, matemáticas aplicadas y programación
 
 
     socialIcons:

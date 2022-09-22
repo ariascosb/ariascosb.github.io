@@ -6,7 +6,7 @@ tags: ["WSL", "Linux","Ubuntu","Bash"]
 categories: ["Programación"]
 ---
 
-WSL nos permite tener una distribución linux en windows 10. La nueva version WSL2 mejora el rendimiento notablemente con la version anterior y la he adoptado como entorno de desarrollo en mi dia a dia. Una labor rutinaria y frecuente que se realiza es mantener actualizado el sistema, por eso te quiero mostrar el código bash que utilizo para realizar esta tarea.
+WSL nos permite tener una distribución linux en windows 10. La nueva version WSL2 mejora el rendimiento notablemente comparandola con la version anterior y la he adoptado como entorno de desarrollo en mi dia a dia. Una labor rutinaria y frecuente que se realiza es mantener actualizado el sistema, por eso te quiero mostrar el código bash que utilizo para realizar esta tarea.
 
                 
 1. Creamos un script .sh, en mi caso lo llamo ubuntu.sh
@@ -59,7 +59,7 @@ alias ubuntu="sudo /home/ariascosb/ubuntu.sh"
 
 En mi caso el nombre personalizado que les estoy dando es ubuntu, pero tu lo puedes cambiar al editar la palabra que esta después de alias y antes del signo igual (=). 
 
-6. Esta todo listo, ahora para ejecutar el script solo bastara con escribir en la terminal el alias (en mi caso: ubuntu), digitar nuestra contraseña y automáticamente se actualizara nuestra distribución en WSL.
+6. Esta todo listo, ahora para ejecutar el script solo bastara con escribir en la terminal el alias (en mi caso: ubuntu), digitamos nuestra contraseña y automáticamente se actualizara nuestra distribución en WSL.
 
 ~~~bash
 ubuntu
