@@ -118,7 +118,7 @@ params:
     editPost:
         URL: "https://github.com/ariascosb/ariascosb_blog/blob/main/content/"
         Text: "Sugerir cambios" # edit text
-        appendFilePath: true # to append file path to Edit link
+        appendFilePath: false # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
