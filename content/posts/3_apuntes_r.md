@@ -1,21 +1,15 @@
 ---
 title: "Mis apuntes de R"
 date: 2023-10-07T11:07:37-05:00
-draft: true
+draft: false
 tags: ["R","ciencia de datos","Data science"]
 categories: ["R", "programacion"]
-showtoc: false #si quiero mostrar la tabla de contenido cambiar a true
+showtoc: true #si quiero mostrar la tabla de contenido cambiar a true
 ---
-
-# R
 
 # Introducción
 
 - En R todos las variables son objetos.
-- Configuracion inicial Rstudio: Eliminar rstore and rdata.
-
-![name](images/descarga.jpg)
-
 - Las asignaciones en R se hacen con <-
 - Los comentarios se hacen con #
 
@@ -23,15 +17,6 @@ showtoc: false #si quiero mostrar la tabla de contenido cambiar a true
 x<-2 #Esto es un comentario
 
 Ctrl+Shift+C #comentarios de mas de una linea
-
-cr3499301
-```
-
-- La ayuda se pide con:
-
-```r
-?mean()
-help("mean")
 ```
 
 - Directorio de trabajo actual: getwd()
@@ -164,23 +149,27 @@ is.null()	#Verificar si es NULL
 
 # Operadores
 
-## Matematicos
-
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%201.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%201.png)
-
 ## Relacionales
 
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%202.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%202.png)
-
-Si se comparan dos cadenas de texto con < o > se usa como criterio el orden alfabético
+| **Operador** | **Comparación** |
+|----------|----------|
+| <    | menor que   |
+| <=    | menor que   |
+| >    | mayor que   |
+| >=    | mayor que   |
+| ==    | igual que   |
+| !=    | No es igual que   |
 
 ## Lógicos
 
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%203.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%203.png)
+| **Operador** | **Comparación** |
+|----------|----------|
+| x | y    | x O y es verdadero   |
+| x & y    | x Y y es verdadero   |
+| !x    | x no es verdadero (negación)|
+| isTRUE(x)    | x es verdadero (afirmación)  |
 
-## Orden de operaciones
-
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%204.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%204.png)
+Si se comparan dos cadenas de texto con < o > se usa como criterio el orden alfabético
 
 # Estructuras de datos
 
@@ -263,7 +252,12 @@ mi_lista
 
 ## Coerción
 
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%205.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%205.png)
+| **Función** | **Coerciona a** | **Coersionar exitosamente a** |
+|----------|----------|----------|
+| as.vector() | vector | matrices  ||
+| as.matrix() | matrices | vectores, data frames|
+| as.data.frame() | data frame | vectores, matrices |
+| as.list() | lista | vectores, matrices, data frames|
 
 # Funciones
 
@@ -283,8 +277,6 @@ area_cuad(4,6)
 ```
 
 # Estructuras de control
-
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%206.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%206.png)
 
 ## If-Else
 
@@ -325,7 +317,7 @@ for(cara in dado) {
 }
 ```
 
-### For para añadir filas a una data table
+For para añadir filas a una data table
 
 ```r
 v<-colores$cod.ext.2
@@ -408,62 +400,13 @@ repeat{
 
 Si no incluimos un break, el bucle se repetirá indefinidamente y sólo lo podremos detener pulsando la tecla ESC, así que hay que tener cuidado al usar esta estructura de control
 
-# Familia Apply
-
-Se incluye en el paquete base pero se recomienda usar data table, mas rapido y comodo
-
-## Apply
-
-`apply` tiene tres argumentos:
-
-- `X`: Una matriz o un objeto que pueda coercionarse a una matriz, generalmente, un data frame.
-- `MARGIN`: La dimensión (margen) que agrupará los elementos de la matriz `X`, para aplicarles una función. Son identificadas con números, **1** son renglones (filas) y **2** son columnas.
-- `FUN`: La función que aplicaremos a la matriz `X` en su dimención `MARGIN`.
-
-```r
-apply(X, MARGIN, FUN)
-
-#Ejemplo
-apply(X = matriz, MARGIN = 1, FUN = sum) #Suma todas filas para el objeto matriz
-apply(X = matriz, MARGIN = 2, FUN = sum) #Suma todas las columnas para el objeto matriz
-```
-
-## Lapply
-
-lapply() es un caso especial de apply(), diseñado para aplicar funciones a todos los elementos de una lista. La l de su nombre se refiere, precisamente, a lista. lapply siempre nos devolverá una lista como resultado
-
-```r
-lapply(X, FUN)
-#Ejemplo
-lapply(X = trees, FUN = mean) #Promedio de un objeto llamado trees
-```
-
-En donde:
-
-- `X` es una lista o un objeto coercionable a una lista.
-- `FUN` es la función a aplicar
-
-En muchos casos es posible reemplazar un bucle `for()` por un `lapply()`. De hecho, `lapply()` está haciendo lo mismo que un `for()`, está iterando una operación en todos los elementos de una estructura de datos.
-
-# Excel
-
-```r
-library("writexl")
-library("readxl")
-
-data<- read_excel("data/data.xlsx")
-data<-as.data.table(data)
-
-write_xlsx(comision, "exits/comisiones.xlsx")
-```
-
 # Data table
 
 Librería mas veloz y flexible para el manejo de tablas en R. 
 
-Siempre que tengás datos para analizar en computador, tratá de tenerlos en formato largo, es mucho más fácil de trabajar con ellos. Para convertir una tabla ancha en una larga, usá `data.table::melt`.
+Siempre que tengas datos para analizar en computador, trata de tenerlos en formato largo, es mucho más fácil de trabajar con ellos. Para convertir una tabla ancha en una larga, usa `data.table::melt`.
 
-Simepre que tengás que generar datos para interpretación por humanos, considerá ponerlos en formato ancho, son más fáciles de entender. Podés lograrlo con `data.table::dcast`.
+Siempre que tengas que generar datos para interpretación por humanos, considera ponerlos en formato ancho, son más fáciles de entender. Podes lograrlo con `data.table::dcast`.
 
 ```r
 #Actualizar todos los paquetes
@@ -565,71 +508,15 @@ setkeyv(ensamble, c("maquina", "proceso"))
 setkeyv(nominalesEnsamble, c("maquina", "proceso"))
 ensamble[nominalesEnsamble, nominal := nominal]
 ```
-
-# Eficiencia algoritmo en R
-
-## Microbenchmark
-
-Compara tres metodos para calculas el minimo, el promedio, la mediana, etc. Notese que la escala esta en microsegundos, la diferencias porcentual es alta pero la real es muy poca.
+# Excel
 
 ```r
-library("microbenchmark")
-df = data.frame(v = 1:4, name = letters[1:4])
-microbenchmark(df[3, 2], df[3, "name"], df$name[3])
-# Unit: microseconds
-#          expr     min    lq  mean median    uq   max neval cld
-#      df[3, 2]   17.99 18.96 20.16  19.38 19.77 35.14   100   b
-# df[3, "name"]   17.97 19.13 21.45  19.64 20.15 74.00   100   b
-#    df$name[3]   12.48 13.81 15.81  14.48 15.14 67.24   100   a
+library("writexl")
+library("readxl")
+
+data<- read_excel("data/data.xlsx")
+data<-as.data.table(data)
+
+write_xlsx(comision, "exits/comisiones.xlsx")
 ```
 
-## Profvis
-
-Muestra cuantos segundos me gasto en cada linea de codigo y cuando es el porcentaje relativo.
-
-```r
-library("profvis")
-profvis(expr = {
-  
-  # Stage 1: load packages
-  # library("rnoaa") # not necessary as data pre-saved
-  library("ggplot2")
-  
-  # Stage 2: load and process data
-  out = readRDS("extdata/out-ice.Rds")
-  df = dplyr::rbind_all(out, id = "Year")
-  
-  # Stage 3: visualise output
-  ggplot(df, aes(long, lat, group = paste(group, Year))) +
-    geom_path(aes(colour = Year)) 
-  ggsave("figures/icesheet-test.png")
-}, interval = 0.01, prof_output = "ice-prof")
-```
-
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%207.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%207.png)
-
-## Memoization
-
-Permite guardar calculos en cache, para que si vuelven a ser solicitados no sean recalculando, ahorrando tiempo y aumentando la eficiencia en procesos recursivos
-
-```r
-plot_mpg = function(row_to_remove) {
-  data(mpg, package = "ggplot2")
-  mpg = mpg[-row_to_remove, ]
-  plot(mpg$cty, mpg$hwy)
-  lines(lowess(mpg$cty, mpg$hwy), col = 2)
-}
-
-m_plot_mpg = memoise(plot_mpg) #Almacena calculos en cache
-```
-
-## Feather
-
-Tipo de documento creado por los desarrolladores de python y R para comprimir datos y aumentar velocidad de procesamiento. Es el mas rapido segun el libro
-
-```r
-write_feather(dt.iris, "exit/iris.feather")
-df_co2_feather = read_feather("exit/iris.feather")
-```
-
-![R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%208.png](R%20648c68dafc5e49449c455147c1f1fa0d/Untitled%208.png)
