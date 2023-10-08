@@ -153,21 +153,21 @@ is.null()	#Verificar si es NULL
 
 | **Operador** | **Comparación** |
 |----------|----------|
-| <    | menor que   |
-| <=    | menor que   |
-| >    | mayor que   |
-| >=    | mayor que   |
-| ==    | igual que   |
-| !=    | No es igual que   |
+| `<`    | `menor que`  |
+| `<= `   | `menor que `  |
+| `>`    | `mayor que`   |
+| `>= `   | `mayor que`   |
+| `==`    | `igual que `  |
+| `!=`    | `No es igual que `  |
+
 
 ## Lógicos
 
 | **Operador** | **Comparación** |
 |----------|----------|
-| x | y    | x O y es verdadero   |
-| x & y    | x Y y es verdadero   |
-| !x    | x no es verdadero (negación)|
-| isTRUE(x)    | x es verdadero (afirmación)  |
+| `x \| y `   | `x O y es verdadero `  |
+| `x & y `   | `x Y y es verdadero `  |
+| `!x `   | `x no es verdadero (negación)`|
 
 Si se comparan dos cadenas de texto con < o > se usa como criterio el orden alfabético
 
@@ -254,10 +254,10 @@ mi_lista
 
 | **Función** | **Coerciona a** | **Coersionar exitosamente a** |
 |----------|----------|----------|
-| as.vector() | vector | matrices  ||
-| as.matrix() | matrices | vectores, data frames|
-| as.data.frame() | data frame | vectores, matrices |
-| as.list() | lista | vectores, matrices, data frames|
+| `as.vector()` | `vector` | `matrices`  |
+| `as.matrix()` | `matrices` | `vectores, data frames`|
+| `as.data.frame()` | `data frame` | `vectores, matrices` |
+| `as.list()` | `lista` | `vectores, matrices, data frames`|
 
 # Funciones
 
