@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on ariascos</title>
-    <link>https://ariascosb.com/categories/linux/</link>
+    <link>https://ariascosb.github.io/categories/linux/</link>
     <description>Recent content in Linux on ariascos</description>
     <image>
-      <url>https://ariascosb.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://ariascosb.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://ariascosb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ariascosb.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 22 May 2021 10:43:26 -0500</lastBuildDate><atom:link href="https://ariascosb.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 10:43:26 -0500</lastBuildDate><atom:link href="https://ariascosb.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi código bash para actualizar Ubuntu</title>
-      <link>https://ariascosb.com/2021/05/mi-c%C3%B3digo-bash-para-actualizar-ubuntu/</link>
+      <link>https://ariascosb.github.io/2021/05/mi-c%C3%B3digo-bash-para-actualizar-ubuntu/</link>
       <pubDate>Sat, 22 May 2021 10:43:26 -0500</pubDate>
       
-      <guid>https://ariascosb.com/2021/05/mi-c%C3%B3digo-bash-para-actualizar-ubuntu/</guid>
+      <guid>https://ariascosb.github.io/2021/05/mi-c%C3%B3digo-bash-para-actualizar-ubuntu/</guid>
       <description>WSL nos permite tener una distribución linux en windows 10. La nueva version WSL2 mejora el rendimiento notablemente con la version anterior y la he adoptado como entorno de desarrollo en mi dia a dia. Una labor rutinaria y frecuente que se realiza es mantener actualizado el sistema, por eso te quiero mostrar el código bash que utilizo para realizar esta tarea.
  Creamos un script .sh, en mi caso lo llamo ubuntu.</description>
     </item>
