@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.125.0</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 07 Oct 2023 11:07:37 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2024 22:08:47 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4_blog Post</title>
+      <link>http://localhost:1313/2024/05/4_blog-post/</link>
+      <pubDate>Sat, 25 May 2024 22:08:47 -0500</pubDate>
+      <guid>http://localhost:1313/2024/05/4_blog-post/</guid>
+      <description>hugo new content/posts/blog-post-1.md</description>
+    </item>
     <item>
       <title>Mis apuntes de R</title>
       <link>http://localhost:1313/2023/10/mis-apuntes-de-r/</link>

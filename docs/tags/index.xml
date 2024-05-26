@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.125.0</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 07 Oct 2023 11:07:37 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2024 22:08:47 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>X</title>
+      <link>http://localhost:1313/tags/x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/x/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Y</title>
+      <link>http://localhost:1313/tags/y/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/y/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ciencia De Datos</title>
       <link>http://localhost:1313/tags/ciencia-de-datos/</link>

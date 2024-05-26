@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/2024/05/4_blog-post/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2023-10-07T11:07:37-05:00</lastmod>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2023-10-07T11:07:37-05:00</lastmod>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/x/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/x/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/y/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/y/</loc>
+    <lastmod>2024-05-25T22:08:47-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ciencia-de-datos/</loc>
     <lastmod>2023-10-07T11:07:37-05:00</lastmod>
@@ -17,9 +38,6 @@
     <loc>http://localhost:1313/2023/10/mis-apuntes-de-r/</loc>
     <lastmod>2023-10-07T11:07:37-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-10-07T11:07:37-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/programacion/</loc>
     <lastmod>2023-10-07T11:07:37-05:00</lastmod>
   </url><url>
@@ -27,9 +45,6 @@
     <lastmod>2023-10-07T11:07:37-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2023-10-07T11:07:37-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-10-07T11:07:37-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/2023/05/como-configurar-el-directorio-de-inicio-para-wsl-en-la-windows-terminal/</loc>
