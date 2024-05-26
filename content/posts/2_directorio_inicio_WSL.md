@@ -1,6 +1,6 @@
 ---
 title: "Como configurar el directorio de inicio para WSL en la windows terminal"
-date: 2021-05-29T15:30:03-05:00
+date: 2023-05-29T15:30:03-05:00
 draft: false
 tags: ["WSL", "Linux","Ubuntu","Windows terminal","terminal do windows"]
 categories: ["Programación"]

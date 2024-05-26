@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WSL on ariascosb</title>
+    <link>http://localhost:1313/tags/wsl/</link>
+    <description>Recent content in WSL on ariascosb</description>
+    <image>
+      <title>ariascosb</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.125.0</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 29 May 2023 15:30:03 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como configurar el directorio de inicio para WSL en la windows terminal</title>
+      <link>http://localhost:1313/2023/05/como-configurar-el-directorio-de-inicio-para-wsl-en-la-windows-terminal/</link>
+      <pubDate>Mon, 29 May 2023 15:30:03 -0500</pubDate>
+      <guid>http://localhost:1313/2023/05/como-configurar-el-directorio-de-inicio-para-wsl-en-la-windows-terminal/</guid>
+      <description>Trabajando con WSL encontré la nueva windows terminal y se me hizo muy comodo trabajar en ella. Sin embargo, el principal problema que tenia era que cada vez que iniciaba el directorio predeterminado era uno tipo /mnt/c/Users/. Esto era molesto dado que constantemente tenia que trasladarme a un directorio dentro de mi home. Para solucionar este problema tenemos que seguir los siguientes pasos.
+Entramos al archivo de configuración settings.json presionando las siguientes teclas ctrl + shift + , Dentro de este archivo configuramos la sección startingDirectory.</description>
+    </item>
+    <item>
+      <title>Mi script bash para actualizar Ubuntu</title>
+      <link>http://localhost:1313/2023/05/mi-script-bash-para-actualizar-ubuntu/</link>
+      <pubDate>Mon, 22 May 2023 10:43:26 -0500</pubDate>
+      <guid>http://localhost:1313/2023/05/mi-script-bash-para-actualizar-ubuntu/</guid>
+      <description>WSL nos permite tener una distribución linux en windows 10. La nueva version WSL2 mejora el rendimiento notablemente comparandola con la version anterior y la he adoptado como entorno de desarrollo en mi dia a dia. Una labor rutinaria y frecuente que se realiza es mantener actualizado el sistema, por eso te quiero mostrar el código bash que utilizo para realizar esta tarea.
+Creamos un script .sh, en mi caso lo llamo ubuntu.</description>
+    </item>
+  </channel>
+</rss>

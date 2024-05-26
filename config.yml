@@ -6,6 +6,9 @@ title: ariascosb #Titulo de la pestaña del navegador web
 theme: PaperMod_My
 #description: "Un blog sobre Programación, Ingeniería y Matemáticas aplicadas"
 
+#cambio añadido para github pages
+publishDir: "docs"
+
 #De aqui hacia abajo copia del tema
 
 paginate: 5
