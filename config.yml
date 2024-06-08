@@ -7,7 +7,7 @@ theme: PaperMod_My
 #description: "Un blog sobre Programación, Ingeniería y Matemáticas aplicadas"
 
 #cambio añadido para github pages
-publishDir: docs
+#publishDir: docs
 
 #De aqui hacia abajo copia del tema
 
