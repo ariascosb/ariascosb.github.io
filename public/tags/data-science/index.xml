@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Science on ariascosb</title>
+    <link>http://localhost:1313/tags/data-science/</link>
+    <description>Recent content in Data Science on ariascosb</description>
+    <image>
+      <title>ariascosb</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.125.0</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 07 Oct 2023 11:07:37 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mis apuntes de R</title>
+      <link>http://localhost:1313/2023/10/mis-apuntes-de-r/</link>
+      <pubDate>Sat, 07 Oct 2023 11:07:37 -0500</pubDate>
+      <guid>http://localhost:1313/2023/10/mis-apuntes-de-r/</guid>
+      <description>Introducción En R todos las variables son objetos. Las asignaciones en R se hacen con &amp;lt;- Los comentarios se hacen con # x&amp;lt;-2 #Esto es un comentario Ctrl+Shift+C #comentarios de mas de una linea Directorio de trabajo actual: getwd() Cambiar directorio: setwd(&amp;ldquo;C:\otro_directorio&amp;rdquo;) # Ver archivos list.files() # Ver directorios list.dirs() Revisar archivos guardados en memoria ls() Instalar paquetes y librerías install.packages(&amp;#34;readr&amp;#34;) #Instalacion (Solo se hace una vez) library(readr) # Cargue de la libreria (Siempre que se vaya a usar) update.</description>
+    </item>
+  </channel>
+</rss>
